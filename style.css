@@ -1,0 +1,117 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and style the font for the entire body */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, centered text, and padding */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style the navigation within the header */
+header nav {
+  font-size: 24px;
+}
+
+/* Style the main container for the app */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Style the table for contact records */
+.contacts {
+  margin-top: 20px;
+}
+
+.contacts table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contacts th, .contacts td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.contacts th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the delete button */
+.contacts button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style the input form */
+.input-form {
+  margin-top: 20px;
+}
+
+.input-form nav {
+  font-size: 18px;
+  color: #333;
+}
+
+.input-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.input-form input[type="text"] {
+  width: 97%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style the submit button */
+#submit {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+img {
+  width: 13px; /* Adjust the size as needed */
+  height: 13px; /* Adjust the size as needed */
+  cursor: pointer;
+}
+
+/* Additional styles to make the icons smaller */
+img.title {
+  width: 16px; /* Smaller width */
+  height: 16px; /* Smaller height */
+}
